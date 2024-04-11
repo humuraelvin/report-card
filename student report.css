@@ -1,0 +1,79 @@
+
+.adress img{
+    height: 100px;
+    border-radius: 50%;
+}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.container_header{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.main_content{
+    height: 100%;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 2%;
+}
+
+
+.student_info{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.student_info >div >img{
+  height: 95px;
+}
+.student_info_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 0px;
+}
+.end_year_evaluation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+.source{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.core{
+    background-color: gray;
+}
+.elective_sub{
+    background-color: gray;
+}
+.r1, .r2, .r3, .r4, .r5, .r6, .r7, .r8, .r9, .r10, .r11, .r12, .r13, .r14, .r15, .r16 {
+    background-color: gray;
+}  
+.my_fieldset{
+    border: 3px solid black;
+}
+
+table ,th, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
